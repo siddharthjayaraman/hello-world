@@ -30,7 +30,7 @@ Antigenic variation is employed by many pathogens to evade the host immune respo
 <br/><br/>**Raw Data**<br/>GEO Accession [GSE114843]( https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE114843)
 
 2. Based on the read length distribution, a range of 1400-2000bp was used to filter the sequenced reads for downstream VSG analysis.
-<br/><br/> Processed, filtered and sample annotated sequenced reads in fasta format used in downstream analysis. Fasta sequence header format eg. *balbc_10_1/18/ccs5* [**Mouse_Day_Replicate**/**ZMW**/**number_of_passes**]: [PacBio_VSG_filtered_reads.fasta.gz](https://datasync.ed.ac.uk/index.php/s/kj4tpmkIdwFPBBE) 
+<br/><br/> Processed, filtered and sample annotated sequenced reads in fasta format used in downstream analysis (header format eg. *balbc_10_1/18/ccs5* [**Mouse_Day_Replicate**/**ZMW**/**number_of_passes**]): [PacBio_VSG_filtered_reads.fasta.gz](https://datasync.ed.ac.uk/index.php/s/kj4tpmkIdwFPBBE) 
 <br/>**Data access password:** longreadvsgdata2019
 
 
