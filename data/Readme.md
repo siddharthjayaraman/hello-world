@@ -40,15 +40,23 @@ Antigenic variation is employed by many pathogens to evade the host immune respo
 <br/>**File**: [TREU927-v26_VSGTranscripts.zip](https://datasync.ed.ac.uk/index.php/s/KoIXV2lgH95KhvA)
 <br/>**Data access password:** longreadvsgdata2019
 
-3. Reads were blasted (BLASTn) against the reference VSG database to identify the donor gene.
+2. Reads were blasted (BLASTn) against the reference VSG database to identify the donor gene.
 A minimum alignment coverage of 60% or above to the sequence read was used to identify the dominant donor transcript, and to generate a variant distribution chart for each sequenced sample. 
 <br/><br/>The raw blast result can be downloaded [here](https://datasync.ed.ac.uk/index.php/s/wSDZV1LNAMoRVbr)
 <br/>**File**: [PacBio_VSG_Filtered_Reads_VSGv27DB_blastn_outfmt6.txt.zip](https://datasync.ed.ac.uk/index.php/s/wSDZV1LNAMoRVbr)
 <br/>**Data access password:** longreadvsgdata2019
-  
-4. We also locally aligned the sequenced VSG reads to a blast database of 515 previously identified cloned reads from  *T. brucei* TREU927 infections.
+<br/><br/>The data representing the VSG transcript counts for the aligned reads used in figure 3 is presented in the tab-seperated text file  
+<br/>**File**: [PacBio_VSG_transcript_count_20Sample.txt](https://datasync.ed.ac.uk/index.php/s/27PLwwghMaY3C8R)
+<br/>**Data access password:** longreadvsgdata2019
 
-5. Open reading frames were identified using ‘getorf’ in EMBOSS (v6.6.0.0), using the following parameters: minimum size 1200 nucleotides, all 3 reading frames and only forward strand.
+3. We also locally aligned the sequenced VSG reads to a blast database of 515 previously identified cloned reads from  *T. brucei* TREU927 infections.
+<br/><br/>**Known VSG clone database**: [Hall_Marcello_Barry_VSGs.zip](https://datasync.ed.ac.uk/index.php/s/ZuUwIA3efFuiMqa)
+<br/>**Blast alignment result**: [PacBio_VSG_Filtered_Reads_VSGClones_blastn_outfmt6.txt.zip](https://datasync.ed.ac.uk/index.php/s/oBsKqmmzjpVFB83)
+<br/>**Data access password:** longreadvsgdata2019
+
+4. Open reading frames were identified using ‘getorf’ in EMBOSS (v6.6.0.0), using the following parameters: minimum size 1200 nucleotides, all 3 reading frames and only forward strand.
+<br/><br/> ORF dataset: [PacBio_VSG_filtered_reads_ORFs.fasta](https://datasync.ed.ac.uk/index.php/s/4ZAKW13l43iKYpM)
+<br/>**Data access password:** longreadvsgdata2019
 
 #### Mosaic gene identification
 
