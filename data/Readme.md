@@ -43,24 +43,31 @@ Antigenic variation is employed by many pathogens to evade the host immune respo
 2. Reads were blasted (BLASTn) against the reference VSG database to identify the donor gene.
 A minimum alignment coverage of 60% or above to the sequence read was used to identify the dominant donor transcript, and to generate a variant distribution chart for each sequenced sample. 
 
+<br/><br/>`blastn  -query PacBio_VSG_filtered_reads.fasta -db TREU927-v26_VSGTranscripts.fasta -out PacBio_VSG_Filtered_Reads_VSGv27DB_blastn_outfmt6.txt  -max_target_seqs 1 -outfmt '6 qseqid sseqid qseq sseq qlen slen qstart qend sstart send evalue bitscore score length nident mismatch positive gapopen gaps ppos'
+` 
 <br/><br/>The raw blast result used in this study: [PacBio_VSG_Filtered_Reads_VSGv27DB_blastn_outfmt6.txt.zip](https://datasync.ed.ac.uk/index.php/s/wSDZV1LNAMoRVbr)
 <br/>**Data access password:** longreadvsgdata2019
 <br/><br/>The data representing the VSG transcript counts for the aligned reads used in figure 3 is presented in the tab-seperated text file : [PacBio_VSG_transcript_count_20Sample.txt](https://datasync.ed.ac.uk/index.php/s/27PLwwghMaY3C8R)
 <br/>**Data access password:** longreadvsgdata2019
 
 3. We also locally aligned the sequenced VSG reads to a blast database of 515 previously identified cloned reads from  *T. brucei* TREU927 infections.
+<br/><br/>`blastn  -query PacBio_VSG_filtered_reads.fasta -db Hall_Marcello_Barry_VSGs.fasta -out PacBio_VSG_Filtered_Reads_VSGClones_blastn_outfmt6.txt  -outfmt '6 qseqid sseqid qseq sseq qlen slen qstart qend sstart send evalue bitscore score length nident mismatch positive gapopen gaps ppos'
+` 
 <br/><br/>**Known VSG clone database**: [Hall_Marcello_Barry_VSGs.zip](https://datasync.ed.ac.uk/index.php/s/ZuUwIA3efFuiMqa)
+
 <br/>**Blast alignment result**: [PacBio_VSG_Filtered_Reads_VSGClones_blastn_outfmt6.txt.zip](https://datasync.ed.ac.uk/index.php/s/oBsKqmmzjpVFB83)
 <br/>**Data access password:** longreadvsgdata2019
 
 4. Open reading frames were identified using ‘getorf’ in EMBOSS (v6.6.0.0), using the following parameters: minimum size 1200 nucleotides, all 3 reading frames and only forward strand.
+<br/><br/>`getorf -sequence PacBio_VSG_filtered_reads.fasta -outseq PacBio_VSG_filtered_reads_ORFs.fasta -minsize 1200 -find 3 -reverse N` 
 <br/><br/> ORF dataset: [PacBio_VSG_filtered_reads_ORFs.fasta](https://datasync.ed.ac.uk/index.php/s/4ZAKW13l43iKYpM)
 <br/>**Data access password:** longreadvsgdata2019
+
 
 #### Mosaic gene identification
 
  1. We reasoned that putative mosaic genes could be identified as PacBio sequences with partial, non-overlapping alignments to multiple VSG genes. We therefore undertook full pairwise alignment using local blast of the 296,937 reads that align to VSGs at a 60% identity threshold post size-selection filtering (see above) against the curated VSG database described above. This resulted in all possible donors and their alignment regions for any specific read being identified.
-<br/>`blastn  -query PacBio_VSG_filtered_reads.fasta -db TREU927-v26_VSGTranscripts.fasta -out PacBio_VSG_Filtered_Reads_VSGv27_MOSAIC_blasnt.txt  -outfmt '6 qseqid sseqid qseq sseq qlen slen qstart qend sstart send evalue bitscore score length nident mismatch positive gapopen gaps ppos'
+<br/><br/>`blastn  -query PacBio_VSG_filtered_reads.fasta -db TREU927-v26_VSGTranscripts.fasta -out PacBio_VSG_Filtered_Reads_VSGv27_MOSAIC_blasnt.txt  -outfmt '6 qseqid sseqid qseq sseq qlen slen qstart qend sstart send evalue bitscore score length nident mismatch positive gapopen gaps ppos'
 ` 
 <br/><br/>The blast result used to identify the mosaic presented in paper: [PacBio_VSG_Filtered_Reads_VSGv27_MOSAIC_blasnt.txt.zip](https://datasync.ed.ac.uk/index.php/s/laYyatZ0pBnfSVn)
 <br/>**Data access password:** longreadvsgdata2019
