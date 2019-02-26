@@ -36,15 +36,15 @@ Antigenic variation is employed by many pathogens to evade the host immune respo
 #### VSG read analysis
 
 1. We generated a local database of TREU927 VSGs, by downloading all transcripts annotated as ‘VSG’ from the most recent version of the TREU927 genome (v26) on  [www.tritrypdb.org](http://www.tritrypdb.org/).
-* > **VSG Database** used in this study can be downloaded [here](https://datasync.ed.ac.uk/index.php/s/KoIXV2lgH95KhvA)
-**File**: [TREU927-v26_VSGTranscripts.zip](https://datasync.ed.ac.uk/index.php/s/KoIXV2lgH95KhvA)
-**Data access password:** longreadvsgdata2019
+<br/><br/> **VSG Database** used in this study can be downloaded [here](https://datasync.ed.ac.uk/index.php/s/KoIXV2lgH95KhvA)
+<br/>**File**: [TREU927-v26_VSGTranscripts.zip](https://datasync.ed.ac.uk/index.php/s/KoIXV2lgH95KhvA)
+<br/>**Data access password:** longreadvsgdata2019
 
 3. Reads were blasted (BLASTn) against the reference VSG database to identify the donor gene.
 A minimum alignment coverage of 60% or above to the sequence read was used to identify the dominant donor transcript, and to generate a variant distribution chart for each sequenced sample. 
-* >The raw blast result can be downloaded here
-**File**: [PacBio_VSG_Filtered_Reads_VSGv27DB_blastn_outfmt6.txt.zip](https://datasync.ed.ac.uk/index.php/s/wSDZV1LNAMoRVbr)
-**Data access password:** longreadvsgdata2019
+<br/><br/>The raw blast result can be downloaded [here](https://datasync.ed.ac.uk/index.php/s/wSDZV1LNAMoRVbr)
+<br/>**File**: [PacBio_VSG_Filtered_Reads_VSGv27DB_blastn_outfmt6.txt.zip](https://datasync.ed.ac.uk/index.php/s/wSDZV1LNAMoRVbr)
+<br/>**Data access password:** longreadvsgdata2019
   
 4. We also locally aligned the sequenced VSG reads to a blast database of 515 previously identified cloned reads from  *T. brucei* TREU927 infections.
 
