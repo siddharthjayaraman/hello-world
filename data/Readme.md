@@ -60,12 +60,6 @@ A minimum alignment coverage of 60% or above to the sequence read was used to id
 
 #### Mosaic gene identification
 
-We reasoned that putative mosaic genes could be identified as PacBio sequences with partial, non-overlapping alignments to multiple VSG genes. We therefore undertook full pairwise alignment using local blast of the 296,937 reads that align to VSGs at a 60% identity threshold post size-selection filtering (see above) against the curated VSG database described above. This resulted in all possible donors and their alignment regions for any specific read being identified.
-
-To distinguish mosaics where the same NTD region occurs with multiple CTD regions (which happens frequently) from mosaics with multiple NTD donors (which are rare), we plotted the number of donor alignments per nucleotide across all reads, with read (VSG) scaled to 100 to enable comparison across multiple variant lengths – this also enabled analysis of the number of donor VSGs across the scaled VSG representatives of our 296,937 VSG dataset.
-
-A distinctive increase in the number of alignments was observed at approximately 75% of the sequence length (consistent with the start of the CTD), and we conservatively defined the NTD region of each sequence as the first 70% of its nucleotides (see Figure 5A). This allowed us to define approximate NTD regions of all sequences, including those without ORF.
-
-Pairwise alignments were then filtered based on the criteria that the start of the alignment should be within the NTD region, and the remaining alignments were used to generate parameters for each read, including NTD length, alignment coverage start and stop sites, NTD alignment coverage percentage, number of donor sequences, alignment coverage of the longest donors, and difference (expressed as percentage non-identity) between the total aligned region and the top donor alignment.
-
-Most sequenced NTD regions resulted in full length or partial match to the known VSG database. In order to confidently identify putative mosaic genes, data were further filtered based upon the following criteria; (1) number of donor VSGs is more than one, (2) alignment coverage of the largest donor is less than 80%, and (3) the difference in alignment regions between donors is greater than 10% of the sequence.  The remaining sequences were then inspected manually to select mosaic genes.
+ 1. We reasoned that putative mosaic genes could be identified as PacBio sequences with partial, non-overlapping alignments to multiple VSG genes. We therefore undertook full pairwise alignment using local blast of the 296,937 reads that align to VSGs at a 60% identity threshold post size-selection filtering (see above) against the curated VSG database described above. This resulted in all possible donors and their alignment regions for any specific read being identified.
+<br/><br/>The blast result used to identify the mosaic presented in paper: [PacBio_VSG_Filtered_Reads_VSGv27_MOSAIC_blasnt.txt.zip](https://datasync.ed.ac.uk/index.php/s/laYyatZ0pBnfSVn)
+<br/>**Data access password:** longreadvsgdata2019
