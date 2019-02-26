@@ -29,24 +29,23 @@ Antigenic variation is employed by many pathogens to evade the host immune respo
 <br/>[SMRT Analysis v2.3 Release Notes](https://www.pacb.com/wp-content/uploads/SMRT-Analysis-Release-Notes-v2-3-0-p5.pdf)<br/>[SMRT Analysis v2.3 Installation guide](https://www.pacb.com/wp-content/uploads/SMRT-Analysis-Software-Installation-v2-3-0.pdf)
 <br/><br/>**Raw Data**<br/>GEO Accession [GSE114843]( https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE114843)
 
-2. Based on the read length distribution, a range of 1400-2000bp was used to filter the sequenced reads for downstream VSG analysis.<br/><br/> [**Click here**](https://datasync.ed.ac.uk/index.php/s/kj4tpmkIdwFPBBE) to download processed, filtered and sample annotated sequenced reads in fasta format used in downstream analysis. Fasta sequence header format eg. *balbc_10_1/18/ccs5* [**Mouse_Day_Replicate**/**ZMW**/**number_of_passes**]
-<br/>**File**: [PacBio_VSG_filtered_reads.fasta.gz](https://datasync.ed.ac.uk/index.php/s/kj4tpmkIdwFPBBE)<br/>**Data access password:** longreadvsgdata2019
+2. Based on the read length distribution, a range of 1400-2000bp was used to filter the sequenced reads for downstream VSG analysis.
+<br/><br/> Processed, filtered and sample annotated sequenced reads in fasta format used in downstream analysis. Fasta sequence header format eg. *balbc_10_1/18/ccs5* [**Mouse_Day_Replicate**/**ZMW**/**number_of_passes**]* 
+: [PacBio_VSG_filtered_reads.fasta.gz](https://datasync.ed.ac.uk/index.php/s/kj4tpmkIdwFPBBE)    
+<br/>**Data access password:** longreadvsgdata2019
 
 
 #### VSG read analysis
 
 1. We generated a local database of TREU927 VSGs, by downloading all transcripts annotated as ‘VSG’ from the most recent version of the TREU927 genome (v26) on  [www.tritrypdb.org](http://www.tritrypdb.org/).
-<br/><br/> **VSG Database** used in this study can be downloaded [here](https://datasync.ed.ac.uk/index.php/s/KoIXV2lgH95KhvA)
-<br/>**File**: [TREU927-v26_VSGTranscripts.zip](https://datasync.ed.ac.uk/index.php/s/KoIXV2lgH95KhvA)
+<br/><br/> **VSG Database** used in this study: [TREU927-v26_VSGTranscripts.zip](https://datasync.ed.ac.uk/index.php/s/KoIXV2lgH95KhvA)
 <br/>**Data access password:** longreadvsgdata2019
 
 2. Reads were blasted (BLASTn) against the reference VSG database to identify the donor gene.
 A minimum alignment coverage of 60% or above to the sequence read was used to identify the dominant donor transcript, and to generate a variant distribution chart for each sequenced sample. 
-<br/><br/>The raw blast result can be downloaded [here](https://datasync.ed.ac.uk/index.php/s/wSDZV1LNAMoRVbr)
-<br/>**File**: [PacBio_VSG_Filtered_Reads_VSGv27DB_blastn_outfmt6.txt.zip](https://datasync.ed.ac.uk/index.php/s/wSDZV1LNAMoRVbr)
+<br/><br/>The raw blast result used in this study: [PacBio_VSG_Filtered_Reads_VSGv27DB_blastn_outfmt6.txt.zip](https://datasync.ed.ac.uk/index.php/s/wSDZV1LNAMoRVbr)
 <br/>**Data access password:** longreadvsgdata2019
-<br/><br/>The data representing the VSG transcript counts for the aligned reads used in figure 3 is presented in the tab-seperated text file  
-<br/>**File**: [PacBio_VSG_transcript_count_20Sample.txt](https://datasync.ed.ac.uk/index.php/s/27PLwwghMaY3C8R)
+<br/><br/>The data representing the VSG transcript counts for the aligned reads used in figure 3 is presented in the tab-seperated text file : [PacBio_VSG_transcript_count_20Sample.txt](https://datasync.ed.ac.uk/index.php/s/27PLwwghMaY3C8R)
 <br/>**Data access password:** longreadvsgdata2019
 
 3. We also locally aligned the sequenced VSG reads to a blast database of 515 previously identified cloned reads from  *T. brucei* TREU927 infections.
