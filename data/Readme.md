@@ -25,17 +25,12 @@ Antigenic variation is employed by many pathogens to evade the host immune respo
 
 ### Raw data processing
 
-1. Pacbio raw data was initially processed using the Pacbio SMRT Analysis - Read of Insert protocol (v2.3), to convert the data into a fasta file using the following parameter selections: minimum 1 full pass, minimum predicted accuracy of 90%. 
-<br/><br/> **SMRT Analysis v2.3**
-<br/> [SMRT Analysis v2.3 Release Notes](https://www.pacb.com/wp-content/uploads/SMRT-Analysis-Release-Notes-v2-3-0-p5.pdf)
-<br/> [SMRT Analysis v2.3 Installation guide](https://www.pacb.com/wp-content/uploads/SMRT-Analysis-Software-Installation-v2-3-0.pdf)
-<br/><br/> **Raw Data** 
-<br/> GEO Accession [GSE114843]( https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE114843)
+1. Pacbio raw data was initially processed using the Pacbio SMRT Analysis - Read of Insert protocol (v2.3), to convert the data into a fasta file using the following parameter selections: minimum 1 full pass, minimum predicted accuracy of 90%. <br/><br/>**SMRT Analysis v2.3**
+<br/>[SMRT Analysis v2.3 Release Notes](https://www.pacb.com/wp-content/uploads/SMRT-Analysis-Release-Notes-v2-3-0-p5.pdf)<br/>[SMRT Analysis v2.3 Installation guide](https://www.pacb.com/wp-content/uploads/SMRT-Analysis-Software-Installation-v2-3-0.pdf)
+<br/><br/>**Raw Data**<br/>GEO Accession [GSE114843]( https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE114843)
 
-2. Based on the read length distribution, a range of 1400-2000bp was used to filter the sequenced reads for downstream VSG analysis.
-*  [**Click here**](https://datasync.ed.ac.uk/index.php/s/kj4tpmkIdwFPBBE) to download processed, filtered and sample annotated sequenced reads in fasta format used in downstream analysis. Fasta sequence header format eg. *balbc_10_1/18/ccs5* [**Mouse_Day_Replicate**/**ZMW**/**number_of_passes**]
-* **File**: [PacBio_VSG_filtered_reads.fasta.gz](https://datasync.ed.ac.uk/index.php/s/kj4tpmkIdwFPBBE)
-* **Data access password:** longreadvsgdata2019
+2. Based on the read length distribution, a range of 1400-2000bp was used to filter the sequenced reads for downstream VSG analysis.<br/><br/> [**Click here**](https://datasync.ed.ac.uk/index.php/s/kj4tpmkIdwFPBBE) to download processed, filtered and sample annotated sequenced reads in fasta format used in downstream analysis. Fasta sequence header format eg. *balbc_10_1/18/ccs5* [**Mouse_Day_Replicate**/**ZMW**/**number_of_passes**]
+<br/>**File**: [PacBio_VSG_filtered_reads.fasta.gz](https://datasync.ed.ac.uk/index.php/s/kj4tpmkIdwFPBBE)<br/>**Data access password:** longreadvsgdata2019
 
 
 #### VSG read analysis
