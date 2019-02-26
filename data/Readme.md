@@ -1,6 +1,6 @@
 # Application of long read sequencing to determine expressed antigen diversity in *Trypanosoma brucei* infections.
 
-Siddharth Jayaraman<sup>1</sup>, Claire Harris<sup>2</sup>, Edith Paxton<sup>1</sup>, Anne-Marie Donachie<sup>3</sup>, Heli Vaikkinen<sup>3</sup>, Richard McCulloch<sup>3</sup>, James P. J. Hall<sup>4</sup>, John Kenny<sup>5</sup>, Luca Lenzi<sup>5</sup>, Christiane Hertz-Fowler<sup>5</sup>, Christina Cobbold<sup>2,6</sup>, Richard Reeve<sup>2</sup>, Tom Michoel<sup>1¶</sup> and Liam J. Morrison<sup>1*¶</sup>
+Siddharth Jayaraman<sup>1*</sup>, Claire Harris<sup>2</sup>, Edith Paxton<sup>1</sup>, Anne-Marie Donachie<sup>3</sup>, Heli Vaikkinen<sup>3</sup>, Richard McCulloch<sup>3</sup>, James P. J. Hall<sup>4</sup>, John Kenny<sup>5</sup>, Luca Lenzi<sup>5</sup>, Christiane Hertz-Fowler<sup>5</sup>, Christina Cobbold<sup>2,6</sup>, Richard Reeve<sup>2</sup>, Tom Michoel<sup>1</sup> and Liam J. Morrison<sup>1*</sup>
 
 1. Roslin Institute, University of Edinburgh, Easter Bush, Midlothian, EH25 9RG, United Kingdom.
 
@@ -14,9 +14,9 @@ Siddharth Jayaraman<sup>1</sup>, Claire Harris<sup>2</sup>, Edith Paxton<sup>1</
 
 6. School of Mathematics and Statistics, University of Glasgow, University Place, Glasgow, G12 8QS, United Kingdom.
 
-[*Liam.Morrison@roslin.ed.ac.uk](mailto:*Liam.Morrison@roslin.ed.ac.uk), 00441316519470
+[*Liam.Morrison@roslin.ed.ac.uk](mailto:*Liam.Morrison@roslin.ed.ac.uk)
+[*Siddharth.Jayaraman@roslin.ed.ac.uk](mailto:*Siddharth.Jayaraman@roslin.ed.ac.uk)
 
-<sup>¶</sup>LM and TM are joint last authors
 
 ## Abstract
 Antigenic variation is employed by many pathogens to evade the host immune response, and  *Trypanosoma brucei* has evolved a complex system to achieve this phenotype, involving sequential use of variant surface glycoprotein (VSG) genes encoded from a large repertoire of ~2,000 genes. *T. brucei* express multiple, sometimes closely related, VSGs in a population at any one time, and the ability to resolve and analyse this diversity has been limited. We applied long read sequencing (PacBio) to VSG amplicons generated from blood extracted from batches of mice sacrificed at time points (days 3, 6, 10 and 12) post-infection with T. brucei TREU927. The data showed that long read sequencing is reliable for resolving variant differences between VSGs, and demonstrated that there is significant expressed diversity (449 VSGs detected across 20 mice) and across the timeframe of study there was a clear semi-reproducible pattern of expressed diversity (median of 27 VSGs per sample at day 3 post infection (p.i.), 82 VSGs at day 6 p.i., 187 VSGs at day 10 p.i. and 132 VSGs by day 12 p.i.). There was also consistent detection of one VSG dominating expression across replicates at days 3 and 6, and emergence of a second dominant VSG across replicates by day 12. The innovative application of ecological diversity analysis to VSG reads enabled characterisation of  hierarchical VSG expression in the dataset, and resulted in a novel method for analysing such patterns of variation.  Additionally, the long read approach allowed detection of mosaic VSG expression from very few reads – the earliest in infection that such events have been detected. Therefore, our results indicate that long read analysis is a reliable tool for resolving diverse gene expression profiles, and provides novel insights into the complexity and nature of VSG expression in trypanosomes, revealing significantly higher diversity than previously shown and the ability to identify mosaic gene formation early during the infection process.
